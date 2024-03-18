@@ -9,7 +9,7 @@ $action = filter_input(INPUT_POST, 'action', FILTER_SANITIZE_STRING);
 if ($action === NULL) {
     $action = filter_input(INPUT_GET, 'action', FILTER_SANITIZE_STRING);
     if ($action === NULL) {
-        $action = 'list_vehicles';  // default action
+        $action = 'list_vehicles';  
     }
 }
 
