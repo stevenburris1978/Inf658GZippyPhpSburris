@@ -2,7 +2,6 @@
 
 <h3 style=" padding-left: 10%">Select Vehicles:</h3>
 
-<!-- Dropdown Filters -->
 <form action="admin" method="get" style="padding-left: 10%">
     <input type="hidden" name="action" value="list_vehicles">
 
