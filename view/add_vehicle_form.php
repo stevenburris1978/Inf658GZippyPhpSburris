@@ -54,12 +54,5 @@ include 'headerTwo.php'; ?>
     </form>
 
 </div>
-<div style="padding-left: 10%; margin-top: 2rem;">
 
-    <a href="make_list.php" style="text-decoration: none; color:black; display: block; width: 10rem; height: 20px; text-align: center; margin-top: -.75rem;">View/Edit Makes</a><br>
-    <a href="type_list.php" style="text-decoration: none; color:black; display: block; width: 10rem; height: 20px; text-align: center; margin-top: -.75rem;">View/Edit Types</a><br>
-    <a href="class_list.php" style="text-decoration: none; color:black; display: block; width: 10rem; height: 20px; text-align: center; margin-top: -.75rem;">View/Edit Classes</a><br>
-    <a href="../admin" style="text-decoration: none; color: black; display: block; width: 10rem; height: 20px; text-align: center; margin-top: -.75rem;">Back To Admin</a>
-</div>
-
-<?php include 'footer.php'; ?>
+<?php include 'footerAdmin.php'; ?>

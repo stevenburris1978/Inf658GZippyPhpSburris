@@ -89,4 +89,5 @@
     <a href="view/type_list.php" style="text-decoration: none; color:black; display: block; width: 10rem; height: 20px; text-align: center; margin-top: -.75rem;">View/Edit Types</a><br>
     <a href="view/class_list.php" style="text-decoration: none; color:black; display: block; width: 10rem; height: 20px; text-align: center; margin-top: -.75rem;">View/Edit Classes</a>
 </div>
+
 <?php include 'view/footer.php'; ?>
