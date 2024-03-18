@@ -1,0 +1,115 @@
+ul {
+    max-height: 500px; 
+    overflow-y: auto;  
+    padding: 0;
+    list-style: none;
+}
+
+input[type="submit"] {
+
+    border-radius: 10px;
+    padding: .5rem;
+    height: 40px;
+    cursor: pointer; 
+    background-color: lightcyan;
+    margin: 1px; 
+}
+
+input[type="text"] {
+
+    border-radius: 10px;
+    padding: .5rem;
+    height: 20px;
+    cursor: pointer; 
+    background-color: lightcyan;
+    margin: 1px; 
+}
+
+input[type="submit"]:hover {
+    background-color: lightskyblue;
+}
+
+button, button[type="submit"] {
+    border-radius: 10px;
+    padding: .5rem;
+    height: 40px;
+    cursor: pointer;
+    background-color: lightcyan;
+    border: none; 
+    font-size: inherit;
+    margin: 1px; 
+}
+
+button:hover, button[type="submit"]:hover {
+    background-color: lightskyblue;
+}
+
+select {
+    border-radius: 10px;
+    height: 40px; 
+    padding: .5rem;
+    cursor: pointer;
+    background-color: lightcyan; 
+    border: 1px solid #ccc;
+    margin: 1px;
+}
+
+select:focus {
+    outline: none;
+    border-color: lightcyan;
+}
+
+select:hover {
+    background-color: lightskyblue;
+}
+
+a {
+    border-radius: 10px;
+    height: 40px; 
+    padding: .5rem;
+    cursor: pointer;
+    background-color: lightcyan; 
+    border: 1px solid #ccc;
+    margin: 1px;
+    margin-top: 40;
+}
+
+a:hover {
+    background-color: lightskyblue;
+}
+
+.bordered {
+    border: 2px solid lightskyblue; 
+    padding: 10px;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 50rem) {
+    .table-container {
+        width: 80%;
+        margin: auto;
+        overflow-x: auto; 
+        padding: 1rem;
+    }
+
+    .scrollable-table {
+        width: 100%; 
+        border-collapse: collapse;
+    }
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main {
+    padding-top: 125px;
+    padding-bottom: 100px;
+    overflow: auto;
+}
+
+
