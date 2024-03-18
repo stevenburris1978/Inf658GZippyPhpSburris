@@ -27,13 +27,13 @@ switch ($action) {
             include('view/admin.php');
         } catch (Exception $e) {
             $error = "Error: " . $e’s->getMessage();
-            include('view/error.php');
+            include('view/errorAdmin.php');
         }
         break;
 
     default:
         $error = "Unknown admin action: " . $action;
-        include('view/error.php');
+        include('view/errorAdmin.php');
         break;
 
     case 'delete_vehicle':
